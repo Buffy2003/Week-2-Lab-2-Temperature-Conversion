@@ -14,5 +14,5 @@ if __name__ == "__main__":
     for temp in range(0, 212, 40):
         print(temp, "Degrees Fahrenheit =", round(to_celsius(temp), 2), "Degrees Celsius")
 
-#    for temp in range(0, 100, 20):
-#        print(temp, "Degrees Celsius =", round(to_fahrenheit(temp), 2), "Degrees Fahrenheit")
+    for temp in range(0, 100, 20):
+        print(temp, "Degrees Celsius =", round(to_fahrenheit(temp), 2), "Degrees Fahrenheit")
